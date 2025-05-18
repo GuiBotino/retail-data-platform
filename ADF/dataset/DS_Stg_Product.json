@@ -1,0 +1,39 @@
+{
+	"name": "DS_Stg_Product",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_DWH",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "ProductName",
+				"type": "varchar"
+			},
+			{
+				"name": "Category",
+				"type": "varchar"
+			},
+			{
+				"name": "Brand",
+				"type": "varchar"
+			},
+			{
+				"name": "Price",
+				"type": "money",
+				"precision": 19,
+				"scale": 4
+			},
+			{
+				"name": "SKU",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "stg",
+			"table": "Product"
+		}
+	}
+}
