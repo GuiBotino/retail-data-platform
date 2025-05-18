@@ -1,0 +1,21 @@
+{
+	"name": "LS_SQL_DWH",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "WINAP7LBCPYDBI7",
+			"database": "RetailDW",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "ETLUser",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhOTliNjAyNC1mNDZiLTQwYzYtOWUzOC0zNWYyOGY0YjFkMjkiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IR-LocalSQL",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "retaildataplatfactory",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "408a130a-ef70-42b4-a3b9-e1b9f7b891a1",
+		"tenantId": "cf36141c-ddd7-45a7-b073-111f66d0b30c"
+	}
+}
