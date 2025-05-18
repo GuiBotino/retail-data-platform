@@ -1,0 +1,57 @@
+{
+	"name": "DS_Date_CSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AzureBlobStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Date.csv",
+				"container": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "DateID",
+				"type": "String"
+			},
+			{
+				"name": "FullDate",
+				"type": "String"
+			},
+			{
+				"name": "Day",
+				"type": "String"
+			},
+			{
+				"name": "Month",
+				"type": "String"
+			},
+			{
+				"name": "Year",
+				"type": "String"
+			},
+			{
+				"name": "Quarter",
+				"type": "String"
+			},
+			{
+				"name": "WeekDay",
+				"type": "String"
+			},
+			{
+				"name": "IsWeekend",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

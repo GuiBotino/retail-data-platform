@@ -1,0 +1,37 @@
+{
+	"name": "DS_Stg_Store",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_DWH",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "StoreName",
+				"type": "varchar"
+			},
+			{
+				"name": "State",
+				"type": "varchar"
+			},
+			{
+				"name": "City",
+				"type": "varchar"
+			},
+			{
+				"name": "StoreType",
+				"type": "varchar"
+			},
+			{
+				"name": "OpenDate",
+				"type": "date"
+			}
+		],
+		"typeProperties": {
+			"schema": "stg",
+			"table": "Store"
+		}
+	}
+}

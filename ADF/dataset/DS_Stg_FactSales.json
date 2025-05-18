@@ -1,0 +1,55 @@
+{
+	"name": "DS_Stg_FactSales",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_DWH",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "DateID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CustomerEmail",
+				"type": "varchar"
+			},
+			{
+				"name": "ProductSKU",
+				"type": "varchar"
+			},
+			{
+				"name": "StoreName",
+				"type": "varchar"
+			},
+			{
+				"name": "SalesRepName",
+				"type": "varchar"
+			},
+			{
+				"name": "Quantity",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "UnitPrice",
+				"type": "money",
+				"precision": 19,
+				"scale": 4
+			},
+			{
+				"name": "Discount",
+				"type": "money",
+				"precision": 19,
+				"scale": 4
+			}
+		],
+		"typeProperties": {
+			"schema": "stg",
+			"table": "FactSales"
+		}
+	}
+}
