@@ -117,6 +117,128 @@
 			]
 		},
 		{
+			"name": "[concat(parameters('factoryName'), '/DS_Date_CSV')]",
+			"type": "Microsoft.DataFactory/factories/datasets",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"linkedServiceName": {
+					"referenceName": "LS_AzureBlobStorage",
+					"type": "LinkedServiceReference"
+				},
+				"annotations": [],
+				"type": "DelimitedText",
+				"typeProperties": {
+					"location": {
+						"type": "AzureBlobStorageLocation",
+						"fileName": "Date.csv",
+						"container": "raw"
+					},
+					"columnDelimiter": ",",
+					"escapeChar": "\\",
+					"firstRowAsHeader": true,
+					"quoteChar": "\""
+				},
+				"schema": [
+					{
+						"name": "DateID",
+						"type": "String"
+					},
+					{
+						"name": "FullDate",
+						"type": "String"
+					},
+					{
+						"name": "Day",
+						"type": "String"
+					},
+					{
+						"name": "Month",
+						"type": "String"
+					},
+					{
+						"name": "Year",
+						"type": "String"
+					},
+					{
+						"name": "Quarter",
+						"type": "String"
+					},
+					{
+						"name": "WeekDay",
+						"type": "String"
+					},
+					{
+						"name": "IsWeekend",
+						"type": "String"
+					}
+				]
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/linkedServices/LS_AzureBlobStorage')]"
+			]
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/DS_FactSales_CSV')]",
+			"type": "Microsoft.DataFactory/factories/datasets",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"linkedServiceName": {
+					"referenceName": "LS_AzureBlobStorage",
+					"type": "LinkedServiceReference"
+				},
+				"annotations": [],
+				"type": "DelimitedText",
+				"typeProperties": {
+					"location": {
+						"type": "AzureBlobStorageLocation",
+						"fileName": "FactSales.csv",
+						"container": "raw"
+					},
+					"columnDelimiter": ",",
+					"escapeChar": "\\",
+					"firstRowAsHeader": true,
+					"quoteChar": "\""
+				},
+				"schema": [
+					{
+						"name": "DateID",
+						"type": "String"
+					},
+					{
+						"name": "CustomerEmail",
+						"type": "String"
+					},
+					{
+						"name": "ProductSKU",
+						"type": "String"
+					},
+					{
+						"name": "StoreName",
+						"type": "String"
+					},
+					{
+						"name": "SalesRepName",
+						"type": "String"
+					},
+					{
+						"name": "Quantity",
+						"type": "String"
+					},
+					{
+						"name": "UnitPrice",
+						"type": "String"
+					},
+					{
+						"name": "Discount",
+						"type": "String"
+					}
+				]
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/linkedServices/LS_AzureBlobStorage')]"
+			]
+		},
+		{
 			"name": "[concat(parameters('factoryName'), '/DS_Product_CSV')]",
 			"type": "Microsoft.DataFactory/factories/datasets",
 			"apiVersion": "2018-06-01",
@@ -211,6 +333,55 @@
 			]
 		},
 		{
+			"name": "[concat(parameters('factoryName'), '/DS_Store_CSV')]",
+			"type": "Microsoft.DataFactory/factories/datasets",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"linkedServiceName": {
+					"referenceName": "LS_AzureBlobStorage",
+					"type": "LinkedServiceReference"
+				},
+				"annotations": [],
+				"type": "DelimitedText",
+				"typeProperties": {
+					"location": {
+						"type": "AzureBlobStorageLocation",
+						"fileName": "Store.csv",
+						"container": "raw"
+					},
+					"columnDelimiter": ",",
+					"escapeChar": "\\",
+					"firstRowAsHeader": true,
+					"quoteChar": "\""
+				},
+				"schema": [
+					{
+						"name": "StoreName",
+						"type": "String"
+					},
+					{
+						"name": "State",
+						"type": "String"
+					},
+					{
+						"name": "City",
+						"type": "String"
+					},
+					{
+						"name": "StoreType",
+						"type": "String"
+					},
+					{
+						"name": "OpenDate",
+						"type": "String"
+					}
+				]
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/linkedServices/LS_AzureBlobStorage')]"
+			]
+		},
+		{
 			"name": "[concat(parameters('factoryName'), '/LS_SQL_DWH')]",
 			"type": "Microsoft.DataFactory/factories/linkedServices",
 			"apiVersion": "2018-06-01",
@@ -295,6 +466,125 @@
 			]
 		},
 		{
+			"name": "[concat(parameters('factoryName'), '/DS_Stg_Date')]",
+			"type": "Microsoft.DataFactory/factories/datasets",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"linkedServiceName": {
+					"referenceName": "LS_SQL_DWH",
+					"type": "LinkedServiceReference"
+				},
+				"annotations": [],
+				"type": "SqlServerTable",
+				"schema": [
+					{
+						"name": "DateID",
+						"type": "int",
+						"precision": 10
+					},
+					{
+						"name": "FullDate",
+						"type": "date"
+					},
+					{
+						"name": "Day",
+						"type": "int",
+						"precision": 10
+					},
+					{
+						"name": "Month",
+						"type": "int",
+						"precision": 10
+					},
+					{
+						"name": "Year",
+						"type": "int",
+						"precision": 10
+					},
+					{
+						"name": "Quarter",
+						"type": "int",
+						"precision": 10
+					},
+					{
+						"name": "WeekDay",
+						"type": "varchar"
+					},
+					{
+						"name": "IsWeekend",
+						"type": "char"
+					}
+				],
+				"typeProperties": {
+					"schema": "stg",
+					"table": "Date"
+				}
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/linkedServices/LS_SQL_DWH')]"
+			]
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/DS_Stg_FactSales')]",
+			"type": "Microsoft.DataFactory/factories/datasets",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"linkedServiceName": {
+					"referenceName": "LS_SQL_DWH",
+					"type": "LinkedServiceReference"
+				},
+				"annotations": [],
+				"type": "SqlServerTable",
+				"schema": [
+					{
+						"name": "DateID",
+						"type": "int",
+						"precision": 10
+					},
+					{
+						"name": "CustomerEmail",
+						"type": "varchar"
+					},
+					{
+						"name": "ProductSKU",
+						"type": "varchar"
+					},
+					{
+						"name": "StoreName",
+						"type": "varchar"
+					},
+					{
+						"name": "SalesRepName",
+						"type": "varchar"
+					},
+					{
+						"name": "Quantity",
+						"type": "int",
+						"precision": 10
+					},
+					{
+						"name": "UnitPrice",
+						"type": "money",
+						"precision": 19,
+						"scale": 4
+					},
+					{
+						"name": "Discount",
+						"type": "money",
+						"precision": 19,
+						"scale": 4
+					}
+				],
+				"typeProperties": {
+					"schema": "stg",
+					"table": "FactSales"
+				}
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/linkedServices/LS_SQL_DWH')]"
+			]
+		},
+		{
 			"name": "[concat(parameters('factoryName'), '/DS_Stg_Product')]",
 			"type": "Microsoft.DataFactory/factories/datasets",
 			"apiVersion": "2018-06-01",
@@ -370,6 +660,48 @@
 				"typeProperties": {
 					"schema": "stg",
 					"table": "SalesRep"
+				}
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/linkedServices/LS_SQL_DWH')]"
+			]
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/DS_Stg_Store')]",
+			"type": "Microsoft.DataFactory/factories/datasets",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"linkedServiceName": {
+					"referenceName": "LS_SQL_DWH",
+					"type": "LinkedServiceReference"
+				},
+				"annotations": [],
+				"type": "SqlServerTable",
+				"schema": [
+					{
+						"name": "StoreName",
+						"type": "varchar"
+					},
+					{
+						"name": "State",
+						"type": "varchar"
+					},
+					{
+						"name": "City",
+						"type": "varchar"
+					},
+					{
+						"name": "StoreType",
+						"type": "varchar"
+					},
+					{
+						"name": "OpenDate",
+						"type": "date"
+					}
+				],
+				"typeProperties": {
+					"schema": "stg",
+					"table": "Store"
 				}
 			},
 			"dependsOn": [
