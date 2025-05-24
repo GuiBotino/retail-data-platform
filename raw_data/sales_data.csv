@@ -1,0 +1,101 @@
+FullDate,CustomerEmail,ProductSKU,StoreName,SalesRepFullName,Quantity,UnitPrice,Discount
+11/24/2023,fernandezdonna@example.org,NIK-4892,"Small, Frost and Adams",Shelley Reese,5,32.04,16.02
+3/13/2023,linda62@example.com,SAM-4330,"Navarro, Johnson and Flores",Nancy Shaw,2,63.14,12.63
+1/17/2023,kathleen93@example.org,SON-1268,"Santana, Yates and Reid",Matthew Miller,4,30.94,12.38
+11/5/2023,morrisoncharles@example.org,LG-4273,Stark Ltd,Samantha Richardson,4,74.44,29.78
+12/26/2023,grantdarryl@example.net,LG-9409,Hall Inc,Michael Craig,4,50.43,20.17
+5/23/2023,danielle92@example.net,SON-9806,"Paul, Vance and Norton",Eric Evans,7,40.62,28.43
+3/21/2023,ashleypalmer@example.org,SAM-1602,"Jones, Brown and Johnson",Jason Barnett,2,18.35,3.67
+2/19/2023,bradleysanchez@example.com,NIK-2875,"Hart, Smith and Ward",Kelsey Rollins,10,33.81,33.81
+1/23/2023,michelle63@example.org,SAM-7776,"Pearson, Stevens and Martinez",Meghan Bryant,2,97.58,19.52
+7/13/2023,piercemarc@example.net,NIK-9810,"Hubbard, Perry and Adams",Melvin Johnson,5,84.65,42.32
+11/13/2023,mblack@example.com,APP-7677,"Cortez, Anthony and Moore",James Woods,4,73.41,29.36
+1/24/2023,russellhamilton@example.com,SAM-9746,"Knapp, Shaw and Hernandez",Kristen Norris,2,86.98,17.4
+2/21/2023,kingbrian@example.org,LG-4056,"Hooper, Cochran and Thompson",Sarah Hayes,8,67.21,53.77
+7/6/2023,garciaaustin@example.net,APP-7527,Parker Group,Christopher Morris,6,28.86,17.32
+5/17/2023,mcclainkimberly@example.org,NIK-1250,"Peterson, Potts and Johnson",Lauren Vaughn,3,58.07,17.42
+5/6/2023,natashajohnson@example.com,LG-4696,Gray Ltd,Kevin Velasquez,7,34.3,24.01
+11/24/2023,hamiltonjanice@example.org,SAM-4930,Christensen Inc,Mackenzie Young,6,85.86,51.52
+1/29/2023,adrianaharris@example.org,NIK-7165,Jackson-Brown,Kenneth Cole,6,46.1,27.66
+2/3/2023,oortiz@example.net,ADI-6122,Nelson Group,Joseph Howard,6,29.14,17.48
+9/13/2023,mark95@example.com,SAM-9088,Richardson Inc,Debra Smith,3,33.84,10.15
+5/7/2023,brownnorma@example.net,ADI-8162,Armstrong Inc,Jon Moore,5,77.23,38.62
+8/8/2023,cindy18@example.org,LG-1743,"Ball, Marquez and Green",Jacob Robinson,6,29.74,17.84
+3/12/2023,zachary44@example.org,LG-9092,Irwin Inc,Carrie Stevens,2,78.02,15.6
+2/26/2023,coxkatrina@example.net,SAM-2985,Medina LLC,Darren Hahn,7,63.68,44.58
+7/17/2023,lindsay56@example.com,APP-6555,Fuller-Miller,Robert Barrett,8,57.62,46.1
+10/11/2023,andrewjohnson@example.org,SON-1263,"Erickson, Lee and Lee",Jennifer Vasquez,9,77.58,69.82
+11/25/2023,vtaylor@example.com,APP-6326,Brandt-Horne,Christopher Copeland,5,49.13,24.56
+8/21/2023,brookefowler@example.net,ADI-3028,"Massey, Colon and Moran",Jennifer Bender,9,78.58,70.72
+9/17/2023,romeroamanda@example.org,APP-8801,"Nelson, Hicks and Smith",Cameron Freeman,9,64.81,58.33
+3/20/2023,cwood@example.net,LG-7558,"Hale, Torres and Perez",Michael Bradshaw,9,95.81,86.23
+9/29/2023,shannon52@example.org,SON-2098,Wilkins-Lindsey,Shelley Reese,6,53.97,32.38
+2/27/2023,jenniferchristensen@example.com,SAM-3390,"Cox, Hunter and Mays",Nancy Shaw,4,15.21,6.08
+10/18/2023,anthony89@example.com,SAM-3824,"Norman, Donaldson and Acosta",Matthew Miller,8,83.44,66.75
+9/30/2023,laura86@example.net,APP-9363,"Cook, Schneider and Gonzales",Samantha Richardson,8,95.22,76.18
+3/26/2023,medinachristopher@example.org,LG-6194,"Brown, Martin and Schmidt",Michael Craig,10,48.08,48.08
+4/19/2023,ronald73@example.net,NIK-4826,Simmons LLC,Eric Evans,5,45.91,22.96
+12/10/2023,vmata@example.com,NIK-6175,"Hamilton, Carter and Moore",Jason Barnett,9,50.63,45.57
+5/7/2023,jessicacoleman@example.com,NIK-4129,Perez Inc,Kelsey Rollins,6,11.89,7.13
+10/11/2023,ywaller@example.com,LG-4933,Byrd-Cook,Meghan Bryant,4,10.65,4.26
+12/29/2023,alexanderdaniel@example.org,APP-3438,"Lewis, Salinas and Munoz",Melvin Johnson,2,91.49,18.3
+6/19/2023,santoskeith@example.com,LG-1216,Brown and Sons,James Woods,4,35.06,14.02
+9/6/2023,ujohnson@example.com,SON-1259,"Wallace, Joseph and Hall",Kristen Norris,3,75.1,22.53
+10/20/2023,brandi88@example.org,NIK-4162,Freeman and Sons,Sarah Hayes,4,80.62,32.25
+7/28/2023,sandra88@example.com,ADI-5764,Gibson PLC,Christopher Morris,2,69.31,13.86
+7/1/2023,andersonkaren@example.net,SON-2240,Lynch LLC,Lauren Vaughn,8,87.75,70.2
+1/28/2023,woodjesus@example.net,NIK-9081,Mccarty LLC,Kevin Velasquez,7,75.54,52.88
+2/25/2023,megan62@example.org,SAM-9197,"Nelson, Hill and Miller",Mackenzie Young,4,58.27,23.31
+3/13/2023,joshua46@example.org,LG-3401,"Johnson, Wolfe and Romero",Kenneth Cole,5,51.64,25.82
+2/8/2023,watsonscott@example.net,SON-6099,Brooks and Sons,Joseph Howard,2,14.55,2.91
+10/4/2023,kathy07@example.net,NIK-8143,"Robinson, Rose and Garner",Debra Smith,4,24.97,9.99
+9/6/2023,johnkelley@example.org,APP-2483,"Small, Frost and Adams",Jon Moore,7,91.22,63.85
+3/26/2023,pvargas@example.org,LG-2952,"Navarro, Johnson and Flores",Jacob Robinson,7,33.87,23.71
+8/21/2023,bryan86@example.com,SON-3394,"Santana, Yates and Reid",Carrie Stevens,9,69.57,62.61
+9/7/2023,rebecca06@example.com,SON-2370,Stark Ltd,Darren Hahn,5,29.59,14.8
+1/30/2023,michaelstewart@example.com,SON-7862,Hall Inc,Robert Barrett,1,77.32,7.73
+1/30/2023,seanhall@example.net,NIK-9166,"Paul, Vance and Norton",Jennifer Vasquez,8,55.26,44.21
+9/29/2023,jyoung@example.net,LG-7729,"Jones, Brown and Johnson",Christopher Copeland,9,17.21,15.49
+4/6/2023,htucker@example.net,ADI-6048,"Hart, Smith and Ward",Jennifer Bender,2,70.77,14.15
+5/1/2023,danielgarza@example.org,LG-1468,"Pearson, Stevens and Martinez",Cameron Freeman,10,32.16,32.16
+11/1/2023,ujackson@example.net,LG-6447,"Hubbard, Perry and Adams",Michael Bradshaw,2,47.73,9.55
+10/26/2023,owiggins@example.org,ADI-5696,"Cortez, Anthony and Moore",Shelley Reese,6,94.12,56.47
+4/15/2023,walkerkevin@example.net,NIK-9200,"Knapp, Shaw and Hernandez",Nancy Shaw,5,45.62,22.81
+12/10/2023,jamestorres@example.org,SON-6017,"Hooper, Cochran and Thompson",Matthew Miller,6,93.61,56.17
+2/7/2023,gomezdonna@example.com,APP-5160,Parker Group,Samantha Richardson,10,99.86,99.86
+2/21/2023,sheila88@example.com,SON-7430,"Peterson, Potts and Johnson",Michael Craig,4,55.53,22.21
+3/9/2023,cory76@example.com,SON-4608,Gray Ltd,Eric Evans,4,43.26,17.3
+3/22/2023,ozimmerman@example.net,ADI-9342,Christensen Inc,Jason Barnett,5,65.05,32.52
+12/1/2023,margaret53@example.com,ADI-1226,Jackson-Brown,Kelsey Rollins,9,36.94,33.25
+12/6/2023,madisoncontreras@example.com,NIK-3520,Nelson Group,Meghan Bryant,5,20.39,10.2
+2/24/2023,jeffrey25@example.org,LG-5574,Richardson Inc,Melvin Johnson,5,35.36,17.68
+4/18/2023,daniellesheppard@example.com,NIK-5549,Armstrong Inc,James Woods,5,55.49,27.74
+5/9/2023,kevin54@example.org,APP-8481,"Ball, Marquez and Green",Kristen Norris,7,84.64,59.25
+1/23/2023,tiffany25@example.org,APP-6041,Irwin Inc,Sarah Hayes,3,67.34,20.2
+5/15/2023,michael43@example.net,LG-1711,Medina LLC,Christopher Morris,9,73.51,66.16
+10/15/2023,watkinslisa@example.org,APP-8668,Fuller-Miller,Lauren Vaughn,2,95.05,19.01
+12/20/2023,riverajennifer@example.com,APP-8998,"Erickson, Lee and Lee",Kevin Velasquez,1,85.11,8.51
+10/26/2023,kevingonzalez@example.org,LG-1014,Brandt-Horne,Mackenzie Young,7,21.47,15.03
+6/7/2023,knightjohn@example.net,LG-2196,"Massey, Colon and Moran",Kenneth Cole,6,28.91,17.35
+5/8/2023,hughesmartin@example.net,SAM-9139,"Nelson, Hicks and Smith",Joseph Howard,9,89.57,80.61
+7/28/2023,pford@example.net,SON-3294,"Hale, Torres and Perez",Debra Smith,4,87.81,35.12
+4/1/2023,moradeborah@example.com,APP-7671,Wilkins-Lindsey,Jon Moore,3,76.29,22.89
+6/20/2023,dianapreston@example.com,APP-2055,"Cox, Hunter and Mays",Jacob Robinson,5,24.33,12.16
+12/26/2023,bryantshannon@example.org,NIK-4685,"Norman, Donaldson and Acosta",Carrie Stevens,1,87.27,8.73
+4/24/2023,dianewilson@example.com,SAM-4219,"Cook, Schneider and Gonzales",Darren Hahn,6,37.47,22.48
+4/27/2023,rbenson@example.com,LG-4805,"Brown, Martin and Schmidt",Robert Barrett,4,45.86,18.34
+5/23/2023,donna45@example.com,NIK-1613,Simmons LLC,Jennifer Vasquez,6,67.73,40.64
+7/24/2023,wwhite@example.org,ADI-8866,"Hamilton, Carter and Moore",Christopher Copeland,1,20.38,2.04
+5/14/2023,ashleyhudson@example.net,APP-5087,Perez Inc,Jennifer Bender,5,13.44,6.72
+11/2/2023,perezmichael@example.org,APP-3520,Byrd-Cook,Cameron Freeman,6,49.28,29.57
+9/19/2023,vbrandt@example.com,APP-9317,"Lewis, Salinas and Munoz",Michael Bradshaw,10,27.11,27.11
+1/23/2023,karendavidson@example.org,SON-6680,Brown and Sons,Shelley Reese,9,93.3,83.97
+10/3/2023,jacob03@example.org,SON-8505,"Wallace, Joseph and Hall",Nancy Shaw,7,16.3,11.41
+12/7/2023,vglass@example.com,APP-4905,Freeman and Sons,Matthew Miller,6,69.7,41.82
+3/5/2023,cgibbs@example.com,NIK-2830,Gibson PLC,Samantha Richardson,5,70.02,35.01
+6/17/2023,denise80@example.org,ADI-5484,Lynch LLC,Michael Craig,9,21.46,19.31
+8/4/2023,ronald65@example.com,SAM-1774,Mccarty LLC,Eric Evans,10,61.22,61.22
+7/27/2023,roger80@example.net,APP-2983,"Nelson, Hill and Miller",Jason Barnett,5,35.82,17.91
+8/9/2023,greenkrystal@example.net,APP-6484,"Johnson, Wolfe and Romero",Kelsey Rollins,6,51.85,31.11
+8/15/2023,awolfe@example.net,SAM-2358,Brooks and Sons,Meghan Bryant,8,81.44,65.15
+3/28/2023,rick05@example.org,LG-3819,"Robinson, Rose and Garner",Melvin Johnson,9,69.75,62.78

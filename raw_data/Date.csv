@@ -1,0 +1,3 @@
+DateID,FullDate,Day,Month,Year,Quarter,WeekDay,IsWeekend
+20240101,2024-01-01,1,1,2024,1,Monday,N
+20240106,2024-01-06,6,1,2024,1,Saturday,Y

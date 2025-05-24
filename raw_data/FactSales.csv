@@ -1,0 +1,3 @@
+DateID,CustomerEmail,ProductSKU,StoreName,SalesRepName,Quantity,UnitPrice,Discount
+20240101,alice.johnson@example.com,SKU12345,Main Street Store,John Taylor,2,29.99,5.00
+20240106,bob.smith@example.com,SKU54321,E-Shop Texas,Lisa Green,1,199.99,10.00
